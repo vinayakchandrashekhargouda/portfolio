@@ -1,0 +1,316 @@
+* {
+
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    font-size: 1.4em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    z-index: 1;
+    width: 1286px;
+    background-color: #ccccea;
+
+}
+
+span {
+    margin-right: 350px;
+    margin-left: 87px;
+    color: rgb(63, 92, 240);
+    background-color: #ccccea;
+}
+
+a {
+    margin: 20px;
+    text-decoration: none;
+    background-color: #ccccea;
+}
+
+a:hover {
+    opacity: 0.4;
+}
+
+#cont {
+    font-size: 18px;
+    line-height: 37px;
+    padding-left: 90px;
+    padding-right: 135px;
+    position: relative;
+    bottom: 137px;
+    width: 700px;
+    height: 400px;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    font-family: Ubuntu;
+
+}
+
+p {
+    margin-top: 37px;
+}
+
+#prof {
+    bottom: 473px;
+    left: 812px;
+    position: relative;
+    width: 242px;
+    border-radius: 56%;
+    transition: transform 0.25s, box-shadow 0.15s;
+}
+
+#prof:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 20.2px rgb(236, 162, 23);
+}
+
+.second {
+    margin-top: 120px;
+    height: 430px;
+    background-color: #ccccea;
+}
+
+.first {
+    height: 550px;
+}
+
+#resume {
+    border: none;
+    background-color: #e87676;
+    width: 161px;
+    height: 34px;
+    margin-top: 22px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+#resume:hover {
+    background-color: rgb(214, 78, 78);
+    box-shadow: 3px 3px 10px rgb(104 103 102);
+}
+
+#extra {
+    height: 100px;
+}
+
+#about {
+    border-radius: 37px;
+    width: 171px;
+    margin-top: 50px;
+    margin-left: 545px;
+}
+
+#one {
+    background-color: #ccccea;
+    font-size: 22px;
+    text-align: center;
+    margin: 8px;
+
+    font-weight: bold;
+}
+
+#two {
+    background-color: #ccccea;
+    padding-left: 180px;
+    padding-right: 215px;
+    line-height: 1.6;
+    letter-spacing: 0.8px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Ubuntu;
+}
+
+#third {
+    height: 500px;
+
+}
+
+#skills {
+    margin-top: 50px;
+    width: 272px;
+    margin-left: 495px;
+}
+
+#three {
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+ul {
+    padding-left: 2px;
+    text-align: center;
+    list-style: none;
+}
+
+#foruth {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.btn {
+    border: 1px solid black;
+    margin: 8px;
+    padding: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.btn:hover {
+    background-color: #ecd58f;
+}
+
+#proj {
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 485px;
+}
+
+#fifth {
+    background-color: #ccccea;
+    height: 570px;
+}
+
+#five {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 17px;
+    font-size: 20px;
+
+}
+
+.imp {
+    background-color: #ccccea;
+    font-size: 17px;
+}
+
+.heading {
+    font-weight: bold;
+    margin: 0;
+}
+
+#sixth {
+    width: 700px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#seventh {
+    height: 540px;
+    font-size: 1.1em;
+}
+
+#six {
+    display: inline-block;
+}
+
+#seven,
+#eight {
+    vertical-align: top;
+    width: 600px;
+    height: 540px;
+    display: inline-block;
+}
+
+#seven {
+    padding-top: 71px;
+    padding-left: 57px;
+}
+
+#high {
+    margin: 0;
+    background-color: antiquewhite;
+    color: black;
+    font-size: 20px;
+}
+
+#name {
+    margin-top: 14px;
+    color: #6e6a6a;
+}
+
+#no {
+    margin-top: 8px;
+}
+
+#links {
+    position: relative;
+    top: 19px;
+    right: 20px;
+}
+
+.social-icon {
+    border-radius: 50%;
+    height: 35px;
+    width: 36px;
+    padding-top: 9px;
+    text-align: center;
+
+}
+
+#download {
+    background-color: #ed52c7;
+    border: none;
+    margin-top: 60px;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+#download:hover {
+    background-color: #d520d5;
+    box-shadow: 4px 4px 6px violet;
+    cursor: pointer;
+}
+
+#ione,
+#itwo {
+    height: 49px;
+}
+
+#eight {
+    padding-top: 42px;
+    padding-left: 237px;
+}
+
+#submit {
+    margin-top: 35px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+#submit:hover {
+    background-color: #97bee1;
+    box-shadow: 2px 2px 4px currentColor;
+    cursor: pointer;
+}
+
+#submit:active {
+    opacity: 0.8;
+}
+
+#ithree {
+    height: 170px;
+}
+
+.allfour {
+    padding-left: 10px;
+    width: 300px;
+    background-color: #ccccea;
+    border-radius: 9px;
+}
+
+#last {
+    font-size: 1.1em;
+    background-color: #b8e4d5;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
